@@ -3,6 +3,7 @@ body{
   margin: 0px;
   padding: 0px;
   font-family: 'Montserrat', sans-serif;
+  color: #828181;
 }
 
 /*HOME SLIDER*/
@@ -14,6 +15,7 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 #home-slider .swiper-slide mark{
   text-align: center;
@@ -21,8 +23,9 @@ body{
   color: #FFF;
   font-weight: bold;
   background: none;
-  display: block;
   clear: both;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
 }
 #home-slider .swiper-slide a.btn{
   display: block;
@@ -32,14 +35,17 @@ body{
   color: #FFF;
   text-transform: uppercase;
   max-width: 240px;
-  margin: 0 auto;
+  margin: 20px auto;
   clear: both;
 }
+#home-slider .swiper-slide a.btn:hover{
+  background: #2b9b2b;
+}
 #home-slider .swiper-slide .floater {
-    float: left;
-    height: 50%;
-    width: 100%;
-    margin-bottom: -50px;
+  float: left;
+  height: 50%;
+  width: 100%;
+  margin-bottom: -50px;
 }
 
 /*HEADER*/
@@ -84,4 +90,66 @@ header .form-inline .form-control{
   left: 50%;
   margin-left: -31px;
   margin-top: 10px;
+}
+.scrolldown{
+  background: rgba(255,255,255,0.5);
+  color: #333;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 20px;
+  display: block;
+  width: 160px;
+  text-align: center;
+  left: 50%;
+  margin-left: -80px;
+  z-index: 200;
+}
+.scrolldown:hover{
+  background: rgba(255,255,255,0.8);
+  color: #333;
+}
+
+/*WHAT WE DO*/
+#what-we-do{
+  margin: 40px 0px;
+  text-align: center;
+}
+#what-we-do h2{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#what-we-do h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 10px;
+  border-bottom: 2px solid #828181;
+}
+#what-we-do .box{
+  margin: 40px 20px 0px;
+}
+#what-we-do .box .icon{
+  background: #e1f3e1;
+  border-radius: 20px;
+  padding: 10px;
+  color: #54d154;
+  width: 140px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+#what-we-do .box h3{
+  font-weight: bold;
+}
+#what-we-do .box .btn{
+  border-radius: 20px;
+  background: #54d154;
+  color: #FFF;
+  max-width: 180px;
+  margin: 0px auto;
+}
+#what-we-do .box .btn:hover{
+  background: #2b9b2b;
 }
