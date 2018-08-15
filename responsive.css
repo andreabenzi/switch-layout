@@ -15,6 +15,9 @@
 		text-align: right;
 		min-height: 60px;
 	}
+	header .navbar-nav{
+		margin-top: 50px;
+	}
 	.navbar-toggler{
 		background: #54d154;
 		position: absolute;

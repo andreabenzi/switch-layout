@@ -81,6 +81,9 @@ header .form-inline .form-control{
   border-radius: 20px;
   background-color: rgba(255,255,255,0.5);
 }
+header .form-inline button{
+  background: #FFF;
+}
 .logo{
   display: block;
   width: 62px;
@@ -152,4 +155,192 @@ header .form-inline .form-control{
 }
 #what-we-do .box .btn:hover{
   background: #2b9b2b;
+}
+
+/*OUT LATEST WORK*/
+#our-latest-work{
+  background: #54d154;
+  padding: 40px 0px;
+  text-align: center;
+  color: #207b20;
+}
+#our-latest-work h2{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#our-latest-work h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 10px;
+  border-bottom: 2px solid #207b20;
+}
+#portfolio {  
+  margin: 1rem 0;
+  column-count: 5;
+  column-gap: 1rem;
+  column-width: 20%;
+}
+#portfolio .tile { 
+  transform: scale(0);
+  transition: all 350ms ease;
+}
+#portfolio .scale-anm {
+  transform: scale(1);
+}
+#portfolio .tile img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.toolbar{
+  margin: 40px 0px;
+}
+.toolbar .btn{
+  border-radius: 20px;
+  border: 1px solid #207b20;
+  color: #207b20;
+}
+.toolbar .btn.active{
+  background: #207b20;
+  color: #FFF;
+}
+.more{
+  background: #207b20;
+  color: #FFF;
+  margin: 40px auto 0px;
+  border-radius: 20px;
+}
+.more:hover{
+  color: #207b20;
+  background: #FFF;
+}
+
+/*TESTIMONIAL*/
+#testimonial{
+  margin: 40px 0px;
+  text-align: center;
+}
+#testimonial h2{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#testimonial h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 10px;
+  border-bottom: 2px solid #828181;
+}
+#testimonial-slider{
+  margin-top: 40px;
+  color: #333;
+}
+#testimonial-slider .swiper-slide{
+  padding: 0px 80px;
+}
+#testimonial-slider h4{
+  color: #207b20;
+}
+
+/*OUR HAPPY CLIENT*/
+#our-happy-client{
+  background: #f2f1f1;
+  padding: 40px 0px;
+  text-align: center;
+}
+#our-happy-client h2{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#our-happy-client h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 10px;
+  border-bottom: 2px solid #828181;
+}
+#our-happy-client .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#our-happy-client img{
+  margin: 20px auto;
+  vertical-align: middle;
+}
+#our-happy-client .see-all{
+  background: #dddcdc;
+  color: #828181;
+  border-radius: 20px;
+}
+#our-happy-client .see-all:hover{
+  background: #828181;
+  color: #FFF;
+}
+
+/*MEET THE TEAM*/
+#meet-the-team{
+  background: #54d154;
+  padding: 40px 0px;
+  text-align: center;
+  color: #207b20;
+}
+#meet-the-team h2{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#meet-the-team h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 10px;
+  border-bottom: 2px solid #207b20;
+}
+.person{
+  margin: 40px 0px;
+}
+.person img{
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.person h5{
+  color: #FFF;
+}
+.person .social{
+  margin: 0px;
+  padding: 5px;
+  background: rgba(255,255,255,0.5);
+  display: inline-block;
+  border-radius: 20px
+}
+.person .social li{
+  display: inline;
+  margin: 0 5px;
+}
+.person .social li a{
+  color: #207b20;
+}
+
+/*WORK WITH US*/
+#work-with-us{
+  background: #3eba3e;
+  text-align: center;
+  padding: 20px 0px;
+}
+#work-with-us .btn{
+  background: #54d154;
+  color: #FFF;
+  border-radius: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+#work-with-us .btn:hover{
+  background: #207b20;
+  color: #FFF;
 }

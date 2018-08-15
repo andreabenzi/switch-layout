@@ -1,7 +1,8 @@
 # switch-layout
 
-This HTML layout include:
+This free HTML template layout include:
 
-- Swiper Slider
 - Bootstrap 4
+- Swiper Slider Plugin
 - Scroll Down jQuery
+- Filter Portfolio jQuery
