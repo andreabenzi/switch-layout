@@ -5,7 +5,28 @@
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
-
+	#home-slider {
+ 		height: 360px;
+	}
+	#home-slider .swiper-slide mark{
+  		font-size: 24px;
+	}
+	#portfolio {  
+  		column-width: 50%;
+  		column-count: 2;
+	}
+	#testimonial-slider .swiper-slide{
+  		padding: 0px 40px;
+	}
+	.person{
+  		margin: 20px 0px;
+	}
+	#pre-footer .col-sm-4{
+		margin-bottom: 40px;
+	}
+	#pre-footer .col-sm-4:last-child{
+		margin-bottom: 0px;
+	}
 }
 
 /*Medium devices (tablets, less than 992px)*/

@@ -317,7 +317,7 @@ header .form-inline button{
   padding: 5px;
   background: rgba(255,255,255,0.5);
   display: inline-block;
-  border-radius: 20px
+  border-radius: 20px;
 }
 .person .social li{
   display: inline;
@@ -342,5 +342,81 @@ header .form-inline button{
 }
 #work-with-us .btn:hover{
   background: #207b20;
+  color: #FFF;
+}
+
+/*PRE FOOTER*/
+#pre-footer{
+  padding: 40px 0px;
+  background: #333;
+  text-align: center;
+}
+#pre-footer h4{
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+#pre-footer h4:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 10px;
+  border-bottom: 2px solid #FFF;
+}
+#pre-footer .social{
+  margin: 0 auto;
+  padding: 5px;
+  background: rgba(255,255,255,0.5);
+  display: inline-block;
+  border-radius: 20px;
+}
+#pre-footer .social li{
+  display: inline;
+  margin: 0 5px;
+}
+#pre-footer .social li a{
+  color: #000;
+}
+#pre-footer .item{
+  text-align: left;
+  margin-bottom: 10px;
+}
+#pre-footer .item img{
+  max-width: 80px;
+  height: auto;
+  margin-right: 5px;
+  float: left;
+  border-radius: 5px;
+}
+#pre-footer .item h5{
+  color: #FFF;
+}
+#pre-footer .form-control{
+  background: #444;
+  color: #AAA;
+  border: none;
+}
+#pre-footer .btn{
+  width: 100%;
+  background: #3eba3e;
+  color: #FFF;
+  border: none;
+  text-transform: uppercase;
+}
+#pre-footer .btn:hover{
+  background: #207b20;
+  color: #FFF;
+}
+
+/*FOOTER*/
+footer{
+  text-align: center;
+  color: #CCC;
+  padding: 10px;
+  background: #000;
+}
+footer a{
   color: #FFF;
 }
