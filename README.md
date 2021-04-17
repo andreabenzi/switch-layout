@@ -6,3 +6,5 @@ This free HTML template layout include:
 - Swiper Slider Plugin
 - Scroll Down jQuery
 - Filter Portfolio jQuery
+
+W3C Validate.
