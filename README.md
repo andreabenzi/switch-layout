@@ -1,7 +1,6 @@
 # switch-layout
 
-This free template layout is taken from:
-
+This free layout template is taken from:\n
 https://www.behance.net/gallery/27106531/Switch-Free-Multi-Purpose-PSD-Template
 
 The current HTML/CSS exercise include some components:
